@@ -21,25 +21,20 @@ const ASSET_BY_VARIANT: Record<LogoVariant, string> = {
 
 export function Logo({ height = 28, variant = 'full' }: LogoProps) {
   const colorScheme = useComputedColorScheme('light', { getInitialValueInEffect: true });
-  const color = colorScheme === 'dark' ? 'var(--mantine-color-white)' : '#000';
+  const isDark = colorScheme === 'dark';
   const asset = ASSET_BY_VARIANT[variant];
   const aspectRatio = ASPECT_RATIOS[variant];
 
   return (
-    <span
-      role="img"
-      aria-label="NodeRef logo"
+    <img
+      src={asset}
+      alt="NodeRef logo"
       style={{
         display: 'inline-block',
         width: height * aspectRatio,
         height,
-        backgroundColor: color,
-        maskImage: `url(${asset})`,
-        WebkitMaskImage: `url(${asset})`,
-        maskRepeat: 'no-repeat',
-        WebkitMaskRepeat: 'no-repeat',
-        maskSize: 'contain',
-        WebkitMaskSize: 'contain',
+        objectFit: 'contain',
+        filter: isDark ? 'invert(1)' : 'none', // keep contrast in dark mode
       }}
     />
   );
