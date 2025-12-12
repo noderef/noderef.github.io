@@ -39,7 +39,7 @@
     {
       "label": "deploy",
       "type": "shell",
-      "command": "pnpm deploy",
+      "command": "pnpm run deploy",
       "problemMatcher": []
     }
   ]
