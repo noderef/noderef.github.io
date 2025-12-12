@@ -44,7 +44,7 @@
       },
       "systemTree": {
         "title": "Inzicht in de systeemboom",
-        "description": "Blader door gebruikers, rechten, groepen en externe inloggegevens per server in een duidelijke systeemboomweergave."
+        "description": "Blader door gebruikers, rechten, groepen en externe inloggegevens per server in een duidelijke repository structuur."
       },
       "personalization": {
         "title": "Jouw werkruimte, jouw manier",
@@ -95,11 +95,11 @@
       },
       "cost": {
         "question": "Is NodeRef gratis?",
-        "answer": "Ja. Het is gratis voor de hele Alfresco-gemeenschap."
+        "answer": "Ja. Het is gratis voor de hele Alfresco community."
       },
       "community": {
         "question": "Voor wie is NodeRef?",
-        "answer": "Beheerders, ontwikkelaars, support engineers en iedereen die tijd besteedt aan het doorzoeken van nodes of het beheren van meerdere Alfresco-servers."
+        "answer": "Beheerders, ontwikkelaars, support engineers en iedereen die tijd besteedt aan het doorzoeken van nodes of het beheren van meerdere Alfresco servers."
       }
     }
   },
