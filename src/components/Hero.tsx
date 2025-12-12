@@ -96,7 +96,10 @@ export function Hero() {
                         disabled={isDisabled}
                         leftSection={
                           loading ? (
-                            <IconLoader2 size={18} style={{ animation: 'spin 1s linear infinite' }} />
+                            <IconLoader2
+                              size={18}
+                              style={{ animation: 'spin 1s linear infinite' }}
+                            />
                           ) : (
                             <Icon size={18} />
                           )
@@ -114,7 +117,9 @@ export function Hero() {
           </Stack>
           {error && (
             <Text ta="center" c="red" size="sm" mt="xs">
-              {t('hero.download.error', { defaultValue: 'Unable to load download links. Please visit GitHub releases.' })}
+              {t('hero.download.error', {
+                defaultValue: 'Unable to load download links. Please visit GitHub releases.',
+              })}
             </Text>
           )}
         </motion.div>

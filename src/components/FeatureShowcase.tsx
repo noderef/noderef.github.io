@@ -1,4 +1,15 @@
-import { Accordion, Container, Grid, Image, Modal, Paper, Stack, Text, Title, type MantineBreakpoint } from '@mantine/core';
+import {
+  Accordion,
+  Container,
+  Grid,
+  Image,
+  Modal,
+  Paper,
+  Stack,
+  Text,
+  Title,
+  type MantineBreakpoint,
+} from '@mantine/core';
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -49,9 +60,7 @@ export function FeatureShowcase({ collapseBreakpoint = 'md' }: Props) {
             <Grid.Col span={{ base: 12, lg: 6 }}>
               <Stack gap="sm">
                 <Title order={3}>{t('featureShowcase.title')}</Title>
-                <Text c="dimmed">
-                  {t('featureShowcase.description')}
-                </Text>
+                <Text c="dimmed">{t('featureShowcase.description')}</Text>
                 <Accordion
                   value={active}
                   onChange={(value) => value && setActive(value)}
@@ -59,9 +68,13 @@ export function FeatureShowcase({ collapseBreakpoint = 'md' }: Props) {
                 >
                   {ITEMS.map((item) => (
                     <Accordion.Item key={item.value} value={item.value}>
-                      <Accordion.Control>{t(`featureShowcase.items.${item.value}.title`)}</Accordion.Control>
+                      <Accordion.Control>
+                        {t(`featureShowcase.items.${item.value}.title`)}
+                      </Accordion.Control>
                       <Accordion.Panel>
-                        <Text c="dimmed">{t(`featureShowcase.items.${item.value}.description`)}</Text>
+                        <Text c="dimmed">
+                          {t(`featureShowcase.items.${item.value}.description`)}
+                        </Text>
                       </Accordion.Panel>
                     </Accordion.Item>
                   ))}
