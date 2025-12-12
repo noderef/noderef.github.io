@@ -1,0 +1,128 @@
+{
+  "hero": {
+    "badge": "Für Desktop entwickelt",
+    "title": "Die Desktop App, die jeder Alfresco Administrator verdient",
+    "description": "NodeRef vereint den Node Browser, die JavaScript Konsole, Suche und Serververwaltung in einer fokussierten Desktop App. Ihre tägliche Alfresco-Arbeit wird klarer, schneller und viel weniger zeitaufwändig.",
+    "download": {
+      "mac": "Für Mac herunterladen",
+      "windows": "Für Windows herunterladen",
+      "linux": "Für Linux herunterladen",
+      "macAppleSilicon": "Für Mac (Apple Silicon) herunterladen"
+    }
+  },
+  "features": {
+    "title": "Ein vollständiger Satz von Tools, die die Alfresco-Verwaltung viel reibungsloser machen",
+    "description": "Suchen Sie intelligenter, erkunden Sie Knoten in der Tiefe, überprüfen Sie Protokolle, führen Sie Skripte aus und verwalten Sie mehrere Server, ohne zwischen Systemen zu wechseln.",
+    "items": {
+      "dashboardActivity": {
+        "title": "Aktivitätsübersicht",
+        "description": "Sehen Sie, wo Sie waren, mit einem persönlichen Dashboard, das aktuelle Knoten in einer Zeitleiste und Heatmap anzeigt, damit Sie schnell zu laufenden Arbeiten zurückkehren können."
+      },
+      "queryBuilder": {
+        "title": "Abfrage Generator",
+        "description": "Erstellen Sie leistungsstarke Suchen zu Eigenschaften, Aspekten, Typen, Pfaden und Sites, ohne sich jedes Abfragedetail merken zu müssen."
+      },
+      "savedSearches": {
+        "title": "Gespeicherte und aktuelle Suchen",
+        "description": "Speichern Sie Ihre bevorzugten Abfragen mit benutzerdefinierten Ergebnisspalten, verwenden Sie sie auf mehreren Servern wieder und führen Sie aktuelle Suchen mit einem Klick erneut aus."
+      },
+      "multiServer": {
+        "title": "Multi-Server Arbeitsbereich",
+        "description": "Verbinden Sie Prod, Test und Dev, beschriften Sie jeden Server, springen Sie zu Admin-Tools und lesen Sie Protokolle – alles von einer zentralen Desktop App aus."
+      },
+      "jsConsole": {
+        "title": "Leistungsstarke JavaScript-Konsole",
+        "description": "Führen Sie Skripte gegen einen oder mehrere Server mit Verlauf, Monaco-Editor, Alfresco spezifischen Helfern und optionaler <code>/ai</code>-Unterstützung aus, wenn Sie sie benötigen."
+      },
+      "nodeBrowserTabs": {
+        "title": "Node-Browser mit Registerkarten",
+        "description": "Öffnen Sie mehrere Knoten in Registerkarten, vergleichen Sie Strukturen, folgen Sie Referenzen und debuggen Sie Probleme, ohne den Überblick zu verlieren."
+      },
+      "fileViewerEditor": {
+        "title": "Datei Viewer und Editor",
+        "description": "Untersuchen und bearbeiten Sie JavaScript und andere textbasierte Inhalte direkt aus dem Repository-Browser."
+      },
+      "systemTree": {
+        "title": "Einblick in den Systembaum",
+        "description": "Durchsuchen Sie Benutzer, Berechtigungen, Gruppen und Remote-Anmeldedaten pro Server in einer klaren Systembaumansicht."
+      },
+      "personalization": {
+        "title": "Ihr Arbeitsbereich, Ihre Art",
+        "description": "Verwenden Sie den hellen oder dunklen Modus, wechseln Sie die Sprache und halten Sie Ihre eigenen Skripte und Textdateien an einem Ort organisiert."
+      }
+    }
+  },
+  "featureShowcase": {
+    "title": "NodeRef in Aktion",
+    "description": "Führe Skripte über Server hinweg aus, durchsuche jede Umgebung und behalte die Node Browser Tabs im Blick, ohne den Fokus zu verlieren.",
+    "items": {
+      "executeJs": {
+        "title": "JavaScript auf jedem Server ausführen",
+        "description": "Sende dasselbe Skript an Produktion, Staging und Dev, zeige die Ergebnisse direkt an und halte deinen Verlauf organisiert, ohne Browser hin- und herzuschalten.",
+        "imageAlt": "JavaScript Konsole über mehrere Server"
+      },
+      "searchMultiServer": {
+        "title": "Auf mehreren Servern suchen",
+        "description": "Starte gespeicherte Abfragen in einer oder mehreren Umgebungen, vergleiche Treffer nebeneinander und bleibe mit intelligenten Filtern und angehefteten Ergebnissen fokussiert.",
+        "imageAlt": "Suchergebnisse auf mehreren Servern"
+      },
+      "nodeBrowser": {
+        "title": "Den Node Browser mit Tabs navigieren",
+        "description": "Öffne Knoten in Tabs, verfolge Referenzen und vergleiche Strukturen, ohne beim Prüfen von Berechtigungen oder Inhalten die Orientierung zu verlieren.",
+        "imageAlt": "Node Browser mit Registerkarten"
+      }
+    }
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "description": "Fragen? Erstellen Sie ein Issue auf GitHub und wir schauen es uns an.",
+    "items": {
+      "whatIsNodeRef": {
+        "question": "Was ist NodeRef?",
+        "answer": "Es ist eine eigenständige Desktop App, die den Node Browser, die JavaScript Konsole, Suche, Protokolle und Multi-Server-Tools an einem Ort zusammenbringt."
+      },
+      "consoleModule": {
+        "question": "Muss ich ein Modul auf Alfresco installieren?",
+        "answer": "Ja. Damit alle Funktionen funktionieren, benötigt Ihr Alfresco-Server das <supportToolsLink>OOTBee Support Tools</supportToolsLink> Modul. NodeRef verwendet dessen JavaScript Konsole und zugehörige Endpunkte."
+      },
+      "whyDesktop": {
+        "question": "Warum eine Desktop App verwenden?",
+        "answer": "Weil alles in einem Arbeitsbereich bleibt. Keine verlorenen Registerkarten, kein Durcheinander und Tools, die zusammenarbeiten, anstatt getrennt."
+      },
+      "multiServer": {
+        "question": "Kann ich mehr als einen Server verbinden?",
+        "answer": "Ja. Fügen Sie so viele Server hinzu, wie Sie möchten, beschriften Sie sie klar, wechseln Sie sofort und führen Sie Skripte auf mehreren gleichzeitig aus."
+      },
+      "cost": {
+        "question": "Ist NodeRef kostenlos?",
+        "answer": "Ja. Es ist kostenlos für die gesamte Alfresco-Community."
+      },
+      "community": {
+        "question": "Für wen ist NodeRef?",
+        "answer": "Administratoren, Entwickler, Support-Ingenieure und alle, die Zeit damit verbringen, Knoten zu durchsuchen oder mehrere Alfresco-Server zu verwalten."
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© {{year}} NodeRef. Alle Rechte vorbehalten."
+  },
+  "header": {
+    "brand": "NodeRef"
+  },
+  "social": {
+    "github": {
+      "label": "GitHub",
+      "url": "https://github.com/noderef/noderef"
+    },
+    "x": {
+      "label": "X",
+      "url": "https://x.com/NodeRefDesktop"
+    }
+  },
+  "language": {
+    "english": "Englisch",
+    "nederlands": "Niederländisch",
+    "deutsch": "Deutsch",
+    "français": "Französisch"
+  }
+}

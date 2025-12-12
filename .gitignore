@@ -1,0 +1,17 @@
+# dependencies
+node_modules
+.pnpm-store
+
+# production
+dist
+
+# misc
+.DS_Store
+*.log
+*.tsbuildinfo
+
+# editor
+.idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json

@@ -1,0 +1,128 @@
+{
+  "hero": {
+    "badge": "Gebouwd voor desktop",
+    "title": "De desktop app die elke Alfresco beheerder verdient",
+    "description": "NodeRef verenigt de Node Browser, JavaScript Console, zoeken en serverbeheer in één gerichte desktop app. Je dagelijkse Alfresco-werk wordt duidelijker, sneller en veel minder tijdrovend.",
+    "download": {
+      "mac": "Download voor Mac",
+      "windows": "Download voor Windows",
+      "linux": "Download voor Linux",
+      "macAppleSilicon": "Download voor Mac (Apple Silicon)"
+    }
+  },
+  "features": {
+    "title": "Een volledige set tools die Alfresco beheer veel soepeler maken",
+    "description": "Zoek slimmer, verken nodes in detail, bekijk logs, voer scripts uit en beheer meerdere servers zonder tussen systemen te springen.",
+    "items": {
+      "dashboardActivity": {
+        "title": "Activiteitsoverzicht",
+        "description": "Zie waar je bent geweest met een persoonlijk dashboard dat recente nodes in een tijdlijn en heatmap toont, zodat je snel terug kunt springen naar lopend werk."
+      },
+      "queryBuilder": {
+        "title": "Query builder",
+        "description": "Bouw krachtige zoekopdrachten op eigenschappen, aspecten, types, paden en sites zonder elk querydetail te onthouden."
+      },
+      "savedSearches": {
+        "title": "Opgeslagen en recente zoekopdrachten",
+        "description": "Sla je favoriete queries op met aangepaste resultaatkolommen, hergebruik ze op meerdere servers en voer recente zoekopdrachten opnieuw uit met één klik."
+      },
+      "multiServer": {
+        "title": "Multi-server werkruimte",
+        "description": "Verbind prod, test en dev, label elke server, spring naar beheertools en lees logs—alles vanuit één centrale desktop app."
+      },
+      "jsConsole": {
+        "title": "Krachtige JavaScript console",
+        "description": "Voer scripts uit op één of meerdere servers met een geschiedenis, de Monaco-editor, Alfresco-specifieke helpers en optionele <code>/ai</code>-assistentie wanneer je het nodig hebt."
+      },
+      "nodeBrowserTabs": {
+        "title": "Node-browser met tabbladen",
+        "description": "Open meerdere nodes in tabbladen, vergelijk structuren, volg referenties en debug problemen zonder je plek te verliezen."
+      },
+      "fileViewerEditor": {
+        "title": "Bestandsviewer en editor",
+        "description": "Inspecteer en bewerk JavaScript en andere tekstgebaseerde inhoud rechtstreeks vanuit de repository browser."
+      },
+      "systemTree": {
+        "title": "Inzicht in de systeemboom",
+        "description": "Blader door gebruikers, rechten, groepen en externe inloggegevens per server in een duidelijke systeemboomweergave."
+      },
+      "personalization": {
+        "title": "Jouw werkruimte, jouw manier",
+        "description": "Gebruik lichte of donkere modus, wissel van taal en houd je eigen scripts en tekstbestanden georganiseerd op één plek."
+      }
+    }
+  },
+  "featureShowcase": {
+    "title": "NodeRef in actie",
+    "description": "Voer scripts over servers uit, doorzoek elke omgeving en houd de Node Browser tabbladen op één lijn zonder je focus te verliezen.",
+    "items": {
+      "executeJs": {
+        "title": "JavaScript op elke server uitvoeren",
+        "description": "Plan hetzelfde script voor productie, staging en dev, bekijk elke uitslag direct en houd je geschiedenis georganiseerd zonder met je browsers te wisselen.",
+        "imageAlt": "JavaScript console die over meerdere servers draait"
+      },
+      "searchMultiServer": {
+        "title": "Zoeken op meerdere servers",
+        "description": "Start opgeslagen queries in een of meer omgevingen, vergelijk resultaten naast elkaar en blijf gefocust met slimme filters en vastgezette resultaten.",
+        "imageAlt": "Zoekresultaten over meerdere servers"
+      },
+      "nodeBrowser": {
+        "title": "Navigeer de Node Browser met tabbladen",
+        "description": "Open nodes in tabbladen, volg referenties en vergelijk structuren zonder je plek kwijt te raken tijdens het controleren van rechten of inhoud.",
+        "imageAlt": "Voorbeeld van Node Browser met tabbladen"
+      }
+    }
+  },
+  "faq": {
+    "title": "Veelgestelde vragen",
+    "description": "Vragen? Maak een issue aan op GitHub en we kijken ernaar.",
+    "items": {
+      "whatIsNodeRef": {
+        "question": "Wat is NodeRef?",
+        "answer": "Het is een standalone desktop app die de Node Browser, JavaScript Console, zoeken, logs en multi-server tools samenbrengt op één plek."
+      },
+      "consoleModule": {
+        "question": "Moet ik een module installeren op Alfresco?",
+        "answer": "Ja. Om alle functies te laten werken, heeft je Alfresco-server de <supportToolsLink>OOTBee Support Tools</supportToolsLink> module nodig. NodeRef gebruikt de JavaScript Console en gerelateerde endpoints."
+      },
+      "whyDesktop": {
+        "question": "Waarom een desktop app gebruiken?",
+        "answer": "Omdat alles in één werkruimte blijft. Geen verloren tabbladen, geen rommel en tools die samenwerken in plaats van los van elkaar."
+      },
+      "multiServer": {
+        "question": "Kan ik meer dan één server verbinden?",
+        "answer": "Ja. Voeg zoveel servers toe als je wilt, label ze duidelijk, wissel direct en voer scripts uit op meerdere tegelijk."
+      },
+      "cost": {
+        "question": "Is NodeRef gratis?",
+        "answer": "Ja. Het is gratis voor de hele Alfresco-gemeenschap."
+      },
+      "community": {
+        "question": "Voor wie is NodeRef?",
+        "answer": "Beheerders, ontwikkelaars, support engineers en iedereen die tijd besteedt aan het doorzoeken van nodes of het beheren van meerdere Alfresco-servers."
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© {{year}} NodeRef. Alle rechten voorbehouden."
+  },
+  "header": {
+    "brand": "NodeRef"
+  },
+  "social": {
+    "github": {
+      "label": "GitHub",
+      "url": "https://github.com/noderef/noderef"
+    },
+    "x": {
+      "label": "X",
+      "url": "https://x.com/NodeRefDesktop"
+    }
+  },
+  "language": {
+    "english": "Engels",
+    "nederlands": "Nederlands",
+    "deutsch": "Duits",
+    "français": "Frans"
+  }
+}

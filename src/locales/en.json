@@ -1,0 +1,130 @@
+{
+  "hero": {
+    "badge": "Built for desktop",
+    "title": "The desktop app every Alfresco admin deserves",
+    "description": "NodeRef unifies the Node Browser, JavaScript Console, search and server management in one focused desktop app. Your daily Alfresco work becomes clearer, faster, and far less time consuming.",
+    "download": {
+      "mac": "Download for Mac",
+      "windows": "Download for Windows",
+      "linux": "Download for Linux",
+      "macAppleSilicon": "Download for Mac (Apple Silicon)"
+    }
+  },
+  "features": {
+    "title": "A full set of tools that make Alfresco administration much smoother",
+    "description": "Search smarter, explore nodes in depth, review logs, run scripts and manage multiple servers without bouncing between systems.",
+    "items": {
+      "dashboardActivity": {
+        "title": "Activity overview",
+        "description": "See where you've been with a personal dashboard showing recent nodes in a timeline and heatmap, so you can quickly jump back into ongoing work."
+      },
+      "queryBuilder": {
+        "title": "Query builder",
+        "description": "Build powerful searches on properties, aspects, types, paths, and sites without memorizing every query detail."
+      },
+      "savedSearches": {
+        "title": "Saved and recent searches",
+        "description": "Save your favourite queries with custom result columns, reuse them across servers, and rerun recent searches with a single click."
+      },
+      "multiServer": {
+        "title": "Multi server workspace",
+        "description": "Connect prod, test, and dev, label each server, jump to admin tools, and read logs—all from one central desktop app."
+      },
+      "jsConsole": {
+        "title": "Powerful JavaScript console",
+        "description": "Run scripts against one or many servers with history, Monaco editor, Alfresco-specific helpers, and optional <code>/ai</code> assistance when you need it."
+      },
+      "nodeBrowserTabs": {
+        "title": "Tabbed node browser",
+        "description": "Open multiple nodes in tabs, compare structures, follow references, and debug issues without losing your place."
+      },
+      "fileViewerEditor": {
+        "title": "File viewer and editor",
+        "description": "Inspect and edit JavaScript and other text based content directly from the repository browser."
+      },
+      "systemTree": {
+        "title": "System tree insight",
+        "description": "Browse users, permissions, groups, and remote credentials per server in a clear system tree view."
+      },
+      "personalization": {
+        "title": "Your workspace, your way",
+        "description": "Use light or dark mode, switch languages, and keep your own scripts and text files organised in one place."
+      }
+    }
+  },
+  "featureShowcase": {
+    "title": "NodeRef in action",
+    "description": "Execute scripts across servers, search every environment, and keep the Node Browser tabs aligned without losing focus.",
+    "items": {
+      "executeJs": {
+        "title": "Execute JavaScript on every server",
+        "description": "Queue the same script for production, staging, and dev, view each result inline, and keep your history organised without juggling browsers.",
+        "imageAlt": "JavaScript console executing across servers"
+      },
+      "searchMultiServer": {
+        "title": "Search across multiple servers",
+        "description": "Fire saved queries to one or more environments, compare hits side by side, and save focus with smart filters and pinned results.",
+        "imageAlt": "Multi-server search results"
+      },
+      "nodeBrowser": {
+        "title": "Navigate the Node Browser with tabs",
+        "description": "Open nodes in tabs, follow references, and compare structures without losing your place while checking permissions or content.",
+        "imageAlt": "Tabbed node browser preview"
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "description": "Any questions? Create an issue on GitHub and we’ll take a look.",
+    "items": {
+      "whatIsNodeRef": {
+        "question": "What is NodeRef?",
+        "answer": "It's a standalone desktop app that brings the Node Browser, JavaScript Console, search, logs, and multi-server tools together in one place."
+      },
+      "consoleModule": {
+        "question": "Do I need a module installed on Alfresco?",
+        "answer": "Yes. For all features to work, your Alfresco server needs the <supportToolsLink>OOTBee Support Tools</supportToolsLink> module. NodeRef uses its JavaScript Console and related endpoints."
+      },
+      "whyDesktop": {
+        "question": "Why use a desktop app?",
+        "answer": "Because everything stays in one workspace. No lost tabs, no clutter, and tools that work together instead of separately."
+      },
+
+      "multiServer": {
+        "question": "Can I connect more than one server?",
+        "answer": "Yes. Add as many servers as you want, label them clearly, switch instantly, and run scripts across several at once."
+      },
+
+      "cost": {
+        "question": "Is NodeRef free?",
+        "answer": "Yes. It's free for the entire Alfresco community."
+      },
+      "community": {
+        "question": "Who is NodeRef for?",
+        "answer": "Admins, developers, support engineers, and anyone who spends time digging through nodes or managing multiple Alfresco servers."
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© {{year}} NodeRef. All rights reserved."
+  },
+  "header": {
+    "brand": "NodeRef"
+  },
+  "social": {
+    "github": {
+      "label": "GitHub",
+      "url": "https://github.com/noderef/noderef"
+    },
+    "x": {
+      "label": "X",
+      "url": "https://x.com/NodeRefDesktop"
+    }
+  },
+  "language": {
+    "english": "English",
+    "nederlands": "Nederlands",
+    "deutsch": "German",
+    "français": "French"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "typescript.validate.enable": true,
+  "files.associations": {
+    "*.css": "css",
+    "*.ts": "typescriptreact",
+    "*.tsx": "typescriptreact"
+  },
+  "files.exclude": {
+    "dist": true,
+    "node_modules": true
+  },
+  "cSpell.language": "en,nl,de,fr"
+}

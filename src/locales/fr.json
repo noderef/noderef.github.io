@@ -1,0 +1,128 @@
+{
+  "hero": {
+    "badge": "Conçu pour le bureau",
+    "title": "L'application de bureau que chaque administrateur Alfresco mérite",
+    "description": "NodeRef unifie le Node Browser, la Console JavaScript, la recherche et la gestion des serveurs dans une application de bureau ciblée. Votre travail quotidien avec Alfresco devient plus clair, plus rapide et beaucoup moins chronophage.",
+    "download": {
+      "mac": "Télécharger pour Mac",
+      "windows": "Télécharger pour Windows",
+      "linux": "Télécharger pour Linux",
+      "macAppleSilicon": "Télécharger pour Mac (Apple Silicon)"
+    }
+  },
+  "features": {
+    "title": "Un ensemble complet d'outils qui rendent l'administration Alfresco beaucoup plus fluide",
+    "description": "Recherchez plus intelligemment, explorez les nœuds en profondeur, consultez les journaux, exécutez des scripts et gérez plusieurs serveurs sans passer d'un système à l'autre.",
+    "items": {
+      "dashboardActivity": {
+        "title": "Vue d'ensemble de l'activité",
+        "description": "Voyez où vous avez été avec un tableau de bord personnel affichant les nœuds récents dans une chronologie et une carte de chaleur, afin que vous puissiez rapidement revenir au travail en cours."
+      },
+      "queryBuilder": {
+        "title": "Générateur de requêtes",
+        "description": "Créez des recherches puissantes sur les propriétés, aspects, types, chemins et sites sans mémoriser chaque détail de requête."
+      },
+      "savedSearches": {
+        "title": "Recherches enregistrées et récentes",
+        "description": "Enregistrez vos requêtes favorites avec des colonnes de résultats personnalisées, réutilisez-les sur plusieurs serveurs et relancez les recherches récentes en un seul clic."
+      },
+      "multiServer": {
+        "title": "Espace de travail multi-serveur",
+        "description": "Connectez prod, test et dev, étiquetez chaque serveur, accédez aux outils d'administration et lisez les journaux—tout depuis une application de bureau centrale."
+      },
+      "jsConsole": {
+        "title": "Console JavaScript puissante",
+        "description": "Exécutez des scripts sur un ou plusieurs serveurs avec un historique, l'éditeur Monaco, des assistants spécifiques à Alfresco et une assistance <code>/ai</code> optionnelle lorsque vous en avez besoin."
+      },
+      "nodeBrowserTabs": {
+        "title": "Navigateur de nœuds à onglets",
+        "description": "Ouvrez plusieurs nœuds dans des onglets, comparez les structures, suivez les références et déboguez les problèmes sans perdre votre place."
+      },
+      "fileViewerEditor": {
+        "title": "Visualiseur et éditeur de fichiers",
+        "description": "Inspectez et modifiez JavaScript et autres contenus basés sur du texte directement depuis le navigateur de dépôt."
+      },
+      "systemTree": {
+        "title": "Vue d'ensemble de l'arborescence système",
+        "description": "Parcourez les utilisateurs, permissions, groupes et identifiants distants par serveur dans une vue claire de l'arborescence système."
+      },
+      "personalization": {
+        "title": "Votre espace de travail, votre façon",
+        "description": "Utilisez le mode clair ou sombre, changez de langue et gardez vos propres scripts et fichiers texte organisés en un seul endroit."
+      }
+    }
+  },
+  "featureShowcase": {
+    "title": "NodeRef en action",
+    "description": "Exécutez des scripts sur plusieurs serveurs, parcourez chaque environnement et gardez les onglets du Node Browser alignés sans perdre votre concentration.",
+    "items": {
+      "executeJs": {
+        "title": "Exécuter du JavaScript sur chaque serveur",
+        "description": "Lancez le même script en prod, staging et dev, affichez les résultats côte à côte et organisez votre historique sans jongler avec les navigateurs.",
+        "imageAlt": "Console JavaScript exécutée sur plusieurs serveurs"
+      },
+      "searchMultiServer": {
+        "title": "Rechercher sur plusieurs serveurs",
+        "description": "Lancez des requêtes enregistrées sur une ou plusieurs environnements, comparez les résultats et restez concentré grâce à des filtres intelligents et des résultats épinglés.",
+        "imageAlt": "Résultats de recherche multi-serveurs"
+      },
+      "nodeBrowser": {
+        "title": "Naviguer le Node Browser avec des onglets",
+        "description": "Ouvrez des nœuds dans des onglets, suivez les références et comparez les structures sans perdre votre place pendant que vous vérifiez les permissions ou le contenu.",
+        "imageAlt": "Aperçu du Node Browser avec onglets"
+      }
+    }
+  },
+  "faq": {
+    "title": "Questions fréquemment posées",
+    "description": "Des questions ? Créez une issue sur GitHub et nous y jetterons un coup d'œil.",
+    "items": {
+      "whatIsNodeRef": {
+        "question": "Qu'est-ce que NodeRef ?",
+        "answer": "C'est une application de bureau autonome qui rassemble le Node Browser, la Console JavaScript, la recherche, les journaux et les outils multi-serveur en un seul endroit."
+      },
+      "consoleModule": {
+        "question": "Dois-je installer un module sur Alfresco ?",
+        "answer": "Oui. Pour que toutes les fonctionnalités fonctionnent, votre serveur Alfresco a besoin du module <supportToolsLink>OOTBee Support Tools</supportToolsLink>. NodeRef utilise sa Console JavaScript et les points de terminaison associés."
+      },
+      "whyDesktop": {
+        "question": "Pourquoi utiliser une application de bureau ?",
+        "answer": "Parce que tout reste dans un seul espace de travail. Pas d'onglets perdus, pas d'encombrement et des outils qui fonctionnent ensemble au lieu de séparément."
+      },
+      "multiServer": {
+        "question": "Puis-je connecter plus d'un serveur ?",
+        "answer": "Oui. Ajoutez autant de serveurs que vous le souhaitez, étiquetez-les clairement, basculez instantanément et exécutez des scripts sur plusieurs à la fois."
+      },
+      "cost": {
+        "question": "NodeRef est-il gratuit ?",
+        "answer": "Oui. C'est gratuit pour toute la communauté Alfresco."
+      },
+      "community": {
+        "question": "Pour qui est NodeRef ?",
+        "answer": "Administrateurs, développeurs, ingénieurs de support et toute personne qui passe du temps à fouiller dans les nœuds ou à gérer plusieurs serveurs Alfresco."
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© {{year}} NodeRef. Tous droits réservés."
+  },
+  "header": {
+    "brand": "NodeRef"
+  },
+  "social": {
+    "github": {
+      "label": "GitHub",
+      "url": "https://github.com/noderef/noderef"
+    },
+    "x": {
+      "label": "X",
+      "url": "https://x.com/NodeRefDesktop"
+    }
+  },
+  "language": {
+    "english": "Anglais",
+    "nederlands": "Néerlandais",
+    "deutsch": "Allemand",
+    "français": "Français"
+  }
+}
