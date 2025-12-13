@@ -2,7 +2,7 @@
   "hero": {
     "badge": "Gebouwd voor desktop",
     "title": "De desktop app die elke Alfresco beheerder verdient",
-    "description": "NodeRef verenigt de Node Browser, JavaScript Console, zoeken en serverbeheer in één gerichte desktop app. Je dagelijkse Alfresco-werk wordt duidelijker, sneller en veel minder tijdrovend.",
+    "description": "NodeRef combineert de Node Browser, JavaScript Console, zoeken en serverbeheer in één gerichte desktop app. Je dagelijkse Alfresco werk wordt duidelijker, sneller en minder tijdrovend.",
     "download": {
       "mac": "Download voor Mac",
       "windows": "Download voor Windows",
@@ -12,7 +12,7 @@
   },
   "features": {
     "title": "Een volledige set tools die Alfresco beheer veel soepeler maken",
-    "description": "Zoek slimmer, verken nodes in detail, bekijk logs, voer scripts uit en beheer meerdere servers zonder tussen systemen te springen.",
+    "description": "Zoek sneller, inspecteer nodes in detail, bekijk logs, voer scripts uit en beheer meerdere servers zonder steeds van tool te wisselen.",
     "items": {
       "dashboardActivity": {
         "title": "Activiteitsoverzicht",
@@ -28,7 +28,7 @@
       },
       "multiServer": {
         "title": "Multi-server werkruimte",
-        "description": "Verbind prod, test en dev, label elke server, spring naar beheertools en lees logs—alles vanuit één centrale desktop app."
+        "description": "Verbind prod, test en dev, label elke server, spring naar beheertools en lees logs vanuit één centrale desktop app."
       },
       "jsConsole": {
         "title": "Krachtige JavaScript console",

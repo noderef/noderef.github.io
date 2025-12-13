@@ -12,7 +12,7 @@
   },
   "features": {
     "title": "Un ensemble complet d'outils qui rendent l'administration Alfresco beaucoup plus fluide",
-    "description": "Recherchez plus intelligemment, explorez les nœuds en profondeur, consultez les journaux, exécutez des scripts et gérez plusieurs serveurs sans passer d'un système à l'autre.",
+    "description": "Recherchez plus vite, inspectez les nœuds en détail, consultez les journaux, exécutez des scripts et gérez plusieurs serveurs sans changer d'outil en permanence.",
     "items": {
       "dashboardActivity": {
         "title": "Vue d'ensemble de l'activité",
@@ -28,7 +28,7 @@
       },
       "multiServer": {
         "title": "Espace de travail multi-serveur",
-        "description": "Connectez prod, test et dev, étiquetez chaque serveur, accédez aux outils d'administration et lisez les journaux—tout depuis une application de bureau centrale."
+        "description": "Connectez prod, test et dev, étiquetez chaque serveur, accédez aux outils d'administration et lisez les journaux depuis une application de bureau centrale."
       },
       "jsConsole": {
         "title": "Console JavaScript puissante",

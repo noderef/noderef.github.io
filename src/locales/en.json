@@ -12,7 +12,7 @@
   },
   "features": {
     "title": "A full set of tools that make Alfresco administration much smoother",
-    "description": "Search smarter, explore nodes in depth, review logs, run scripts and manage multiple servers without bouncing between systems.",
+    "description": "Search faster, inspect nodes in detail, review logs, run scripts, and manage multiple servers without jumping between tools.",
     "items": {
       "dashboardActivity": {
         "title": "Activity overview",
@@ -28,7 +28,7 @@
       },
       "multiServer": {
         "title": "Multi server workspace",
-        "description": "Connect prod, test, and dev, label each server, jump to admin tools, and read logs—all from one central desktop app."
+        "description": "Connect prod, test, and dev, label each server, jump to admin tools, and read logs from one central desktop app."
       },
       "jsConsole": {
         "title": "Powerful JavaScript console",

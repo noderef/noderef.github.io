@@ -1,4 +1,5 @@
 import { Button, Menu } from '@mantine/core';
+import { useMediaQuery } from '@mantine/hooks';
 import { IconChevronDown } from '@tabler/icons-react';
 import { useTranslation } from 'react-i18next';
 
@@ -21,6 +22,7 @@ const FlagIcon = ({ flagClass, label }: { flagClass: string; label: string }) =>
 
 export function LanguageToggle() {
   const { i18n, t } = useTranslation();
+  const isMobile = useMediaQuery('(max-width: 500px)');
   const current = languages.find((lang) => lang.code === i18n.language) || languages[0];
 
   const handleLanguageChange = (code: string) => {
@@ -38,7 +40,7 @@ export function LanguageToggle() {
           leftSection={<FlagIcon flagClass={current.flagClass} label={t(current.labelKey)} />}
           rightSection={<IconChevronDown size={14} />}
         >
-          {t(current.labelKey)}
+          {!isMobile ? t(current.labelKey) : ''}
         </Button>
       </Menu.Target>
       <Menu.Dropdown>
