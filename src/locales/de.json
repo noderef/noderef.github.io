@@ -28,11 +28,11 @@
       },
       "multiServer": {
         "title": "Multi-Server Arbeitsbereich",
-        "description": "Verbinden Sie Prod, Test und Dev, beschriften Sie jeden Server, springen Sie zu Admin-Tools und lesen Sie Protokolle in einer zentralen Desktop App."
+        "description": "Verbinden Sie Prod, Test und Dev, beschriften Sie jeden Server, springen Sie zu Admin Tools und lesen Sie Protokolle in einer zentralen Desktop App."
       },
       "jsConsole": {
         "title": "Leistungsstarke JavaScript Konsole",
-        "description": "Führen Sie Skripte gegen einen oder mehrere Server mit Verlauf, Monaco-Editor, Alfresco spezifischen Helfern und optionaler <code>/ai</code> Unterstützung aus, wenn Sie sie benötigen."
+        "description": "Führen Sie Skripte gegen einen oder mehrere Server mit Verlauf, Monaco Editor, Alfresco spezifischen Helfern und optionaler <code>/ai</code> Unterstützung aus, wenn Sie sie benötigen."
       },
       "nodeBrowserTabs": {
         "title": "Node Browser mit Registerkarten",
@@ -99,7 +99,7 @@
       },
       "community": {
         "question": "Für wen ist NodeRef?",
-        "answer": "Administratoren, Entwickler, Support Ingenieure und alle, die Zeit damit verbringen, Knoten zu durchsuchen oder mehrere Alfresco-Server zu verwalten."
+        "answer": "Administratoren, Entwickler, Support Ingenieure und alle, die Zeit damit verbringen, Knoten zu durchsuchen oder mehrere Alfresco Server zu verwalten."
       }
     }
   },

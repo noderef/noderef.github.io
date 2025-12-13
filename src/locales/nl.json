@@ -32,10 +32,10 @@
       },
       "jsConsole": {
         "title": "Krachtige JavaScript console",
-        "description": "Voer scripts uit op één of meerdere servers met een geschiedenis, de Monaco-editor, Alfresco-specifieke helpers en optionele <code>/ai</code>-assistentie wanneer je het nodig hebt."
+        "description": "Voer scripts uit op één of meerdere servers met een geschiedenis, de Monaco editor, Alfresco specifieke helpers en optionele <code>/ai</code> assistentie wanneer je het nodig hebt."
       },
       "nodeBrowserTabs": {
-        "title": "Node-browser met tabbladen",
+        "title": "Node Browser met tabbladen",
         "description": "Open meerdere nodes in tabbladen, vergelijk structuren, volg referenties en debug problemen zonder je plek te verliezen."
       },
       "fileViewerEditor": {
@@ -43,7 +43,7 @@
         "description": "Inspecteer en bewerk JavaScript en andere tekstgebaseerde inhoud rechtstreeks vanuit de repository browser."
       },
       "systemTree": {
-        "title": "Inzicht in de systeemboom",
+        "title": "Inzicht in de systeemstructuur",
         "description": "Blader door gebruikers, rechten, groepen en externe inloggegevens per server in een duidelijke repository structuur."
       },
       "personalization": {
