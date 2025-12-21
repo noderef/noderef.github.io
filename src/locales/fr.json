@@ -16,7 +16,7 @@
     "items": {
       "dashboardActivity": {
         "title": "Vue d'ensemble de l'activité",
-        "description": "Voyez où vous avez été avec un tableau de bord personnel affichant les nœuds récents dans une chronologie et une carte de chaleur, afin que vous puissiez rapidement revenir au travail en cours."
+        "description": "Voyez où vous avez été avec un tableau de bord personnel affichant les nœuds récents dans une chronologie et une carte de chaleur, afin que vous puissiez rapidement revenir au travail récent."
       },
       "queryBuilder": {
         "title": "Générateur de requêtes",

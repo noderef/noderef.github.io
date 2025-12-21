@@ -16,7 +16,7 @@
     "items": {
       "dashboardActivity": {
         "title": "Activity overview",
-        "description": "See where you've been with a personal dashboard showing recent nodes in a timeline and heatmap, so you can quickly jump back into ongoing work."
+        "description": "See where you've been with a personal dashboard showing recent nodes in a timeline and heatmap, so you can quickly jump back into recent work."
       },
       "queryBuilder": {
         "title": "Query builder",

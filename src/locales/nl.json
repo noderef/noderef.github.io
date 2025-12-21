@@ -16,7 +16,7 @@
     "items": {
       "dashboardActivity": {
         "title": "Activiteitsoverzicht",
-        "description": "Zie waar je bent geweest met een persoonlijk dashboard dat recente nodes in een tijdlijn en heatmap toont, zodat je snel terug kunt springen naar lopend werk."
+        "description": "Zie waar je bent geweest met een persoonlijk dashboard dat recente nodes in een tijdlijn en heatmap toont, zodat je snel terug kunt springen naar recent werk."
       },
       "queryBuilder": {
         "title": "Query builder",

@@ -16,7 +16,7 @@
     "items": {
       "dashboardActivity": {
         "title": "Aktivitätsübersicht",
-        "description": "Sehen Sie, wo Sie waren, mit einem persönlichen Dashboard, das aktuelle Knoten in einer Zeitleiste und Heatmap anzeigt, damit Sie schnell zu laufenden Arbeiten zurückkehren können."
+        "description": "Sehen Sie, wo Sie waren, mit einem persönlichen Dashboard, das aktuelle Knoten in einer Zeitleiste und Heatmap anzeigt, damit Sie schnell zu kürzlichen Arbeiten zurückkehren können."
       },
       "queryBuilder": {
         "title": "Abfrage Generator",
