@@ -82,8 +82,8 @@ export function useGitHubRelease() {
               }
             }
           }
-          // Linux TAR.GZ
-          else if (name.endsWith('.tar.gz') && name.includes('linux')) {
+          // Linux DEB (Debian naming: noderef_<version>_<arch>.deb)
+          else if (name.endsWith('.deb') && name.startsWith('noderef')) {
             releaseAssets.linux = asset.browser_download_url;
           }
         }
