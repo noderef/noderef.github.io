@@ -2,7 +2,7 @@
   "whatsNew": {
     "badge": "New",
     "title": "AI Agent",
-    "description": "Ask your repo in plain English. Search nodes, run scripts, or change permissions – just say what you need. Use @ to point at folders or files. Optional masking keeps sensitive data out of the model.",
+    "description": "Ask your repo in plain English. Search nodes, run scripts, or change permissions – just say what you need. Use @ to point at folders or files. Optional masking prevents sensitive data from being sent to LLM providers.",
     "notifyAgent": "Use /notify-agent"
   },
   "hero": {
@@ -22,7 +22,7 @@
     "items": {
       "aiAgent": {
         "title": "AI Agent",
-        "description": "Ask your repo in plain English. Search nodes, run scripts, or change permissions – just say what you need. Use @ to point at folders or files. Optional masking keeps sensitive data out of the model."
+        "description": "Ask your repo in plain English. Search nodes, run scripts, or change permissions – just say what you need. Use @ to point at folders or files. Optional masking prevents sensitive data from being sent to LLM providers."
       },
       "dashboardActivity": {
         "title": "Activity overview",
@@ -64,7 +64,7 @@
     "items": {
       "agent": {
         "title": "AI Agent",
-        "description": "Ask your repo in plain English. Search nodes, run scripts, or change permissions – just say what you need. Use @ to point at folders or files. Optional masking keeps sensitive data out of the model.",
+        "description": "Ask your repo in plain English. Search nodes, run scripts, or change permissions – just say what you need. Use @ to point at folders or files. Optional masking prevents sensitive data from being sent to LLM providers.",
         "imageAlt": "AI Agent in action"
       },
       "executeJs": {

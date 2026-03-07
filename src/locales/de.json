@@ -2,7 +2,7 @@
   "whatsNew": {
     "badge": "Neu",
     "title": "AI Agent",
-    "description": "Einfach auf Deutsch fragen. Nodes durchsuchen, Skripte ausführen oder Rechte anpassen – sagen Sie, was Sie brauchen. Mit @ können Sie Ordner oder Dateien erwähnen. Optionale Maskierung hält sensible Daten vom Modell fern.",
+    "description": "Einfach auf Deutsch fragen. Nodes durchsuchen, Skripte ausführen oder Rechte anpassen – sagen Sie, was Sie brauchen. Mit @ können Sie Ordner oder Dateien erwähnen. Optionale Maskierung verhindert, dass sensible Daten an LLM-Anbieter gesendet werden.",
     "notifyAgent": "/notify-agent verwenden"
   },
   "hero": {
@@ -22,7 +22,7 @@
     "items": {
       "aiAgent": {
         "title": "AI Agent",
-        "description": "Einfach auf Deutsch fragen. Nodes durchsuchen, Skripte ausführen oder Rechte anpassen – sagen Sie, was Sie brauchen. Mit @ können Sie Ordner oder Dateien erwähnen. Optionale Maskierung hält sensible Daten vom Modell fern."
+        "description": "Einfach auf Deutsch fragen. Nodes durchsuchen, Skripte ausführen oder Rechte anpassen – sagen Sie, was Sie brauchen. Mit @ können Sie Ordner oder Dateien erwähnen. Optionale Maskierung verhindert, dass sensible Daten an LLM-Anbieter gesendet werden."
       },
       "dashboardActivity": {
         "title": "Aktivitätsübersicht",
@@ -64,7 +64,7 @@
     "items": {
       "agent": {
         "title": "AI Agent",
-        "description": "Einfach auf Deutsch fragen. Nodes durchsuchen, Skripte ausführen oder Rechte anpassen – sagen Sie, was Sie brauchen. Mit @ können Sie Ordner oder Dateien erwähnen. Optionale Maskierung hält sensible Daten vom Modell fern.",
+        "description": "Einfach auf Deutsch fragen. Nodes durchsuchen, Skripte ausführen oder Rechte anpassen – sagen Sie, was Sie brauchen. Mit @ können Sie Ordner oder Dateien erwähnen. Optionale Maskierung verhindert, dass sensible Daten an LLM-Anbieter gesendet werden.",
         "imageAlt": "AI Agent in Aktion"
       },
       "executeJs": {

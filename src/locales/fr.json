@@ -2,7 +2,7 @@
   "whatsNew": {
     "badge": "Nouveauté",
     "title": "AI Agent",
-    "description": "Posez simplement votre question en français. Recherchez des nœuds, exécutez des scripts ou modifiez les permissions – dites ce dont vous avez besoin. Utilisez @ pour citer des dossiers ou des fichiers. Le masquage optionnel garde les données sensibles hors du modèle.",
+    "description": "Posez simplement votre question en français. Recherchez des nœuds, exécutez des scripts ou modifiez les permissions – dites ce dont vous avez besoin. Utilisez @ pour citer des dossiers ou des fichiers. Le masquage optionnel empêche l'envoi de données sensibles aux fournisseurs de LLM.",
     "notifyAgent": "/notify-agent utiliser"
   },
   "hero": {
@@ -22,7 +22,7 @@
     "items": {
       "aiAgent": {
         "title": "AI Agent",
-        "description": "Posez simplement votre question en français. Recherchez des nœuds, exécutez des scripts ou modifiez les permissions – dites ce dont vous avez besoin. Utilisez @ pour citer des dossiers ou des fichiers. Le masquage optionnel garde les données sensibles hors du modèle."
+        "description": "Posez simplement votre question en français. Recherchez des nœuds, exécutez des scripts ou modifiez les permissions – dites ce dont vous avez besoin. Utilisez @ pour citer des dossiers ou des fichiers. Le masquage optionnel empêche l'envoi de données sensibles aux fournisseurs de LLM."
       },
       "dashboardActivity": {
         "title": "Vue d'ensemble de l'activité",
@@ -64,7 +64,7 @@
     "items": {
       "agent": {
         "title": "AI Agent",
-        "description": "Posez simplement votre question en français. Recherchez des nœuds, exécutez des scripts ou modifiez les permissions – dites ce dont vous avez besoin. Utilisez @ pour citer des dossiers ou des fichiers. Le masquage optionnel garde les données sensibles hors du modèle.",
+        "description": "Posez simplement votre question en français. Recherchez des nœuds, exécutez des scripts ou modifiez les permissions – dites ce dont vous avez besoin. Utilisez @ pour citer des dossiers ou des fichiers. Le masquage optionnel empêche l'envoi de données sensibles aux fournisseurs de LLM.",
         "imageAlt": "AI Agent en action"
       },
       "executeJs": {

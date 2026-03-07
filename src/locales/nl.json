@@ -2,7 +2,7 @@
   "whatsNew": {
     "badge": "Nieuw",
     "title": "AI Agent",
-    "description": "Stel gewoon je vraag in het Nederlands. Zoek nodes, voer scripts uit of pas rechten aan – zeg wat je nodig hebt. Gebruik @ om mappen of bestanden te noemen. Optionele masking houdt gevoelige gegevens buiten het model.",
+    "description": "Stel gewoon je vraag in het Nederlands. Zoek nodes, voer scripts uit of pas rechten aan – zeg wat je nodig hebt. Gebruik @ om mappen of bestanden te noemen. Optionele masking voorkomt dat gevoelige gegevens naar LLM-providers worden verstuurd.",
     "notifyAgent": "/notify-agent gebruiken"
   },
   "hero": {
@@ -22,7 +22,7 @@
     "items": {
       "aiAgent": {
         "title": "AI Agent",
-        "description": "Stel gewoon je vraag in het Nederlands. Zoek nodes, voer scripts uit of pas rechten aan – zeg wat je nodig hebt. Gebruik @ om mappen of bestanden te noemen. Optionele masking houdt gevoelige gegevens buiten het model."
+        "description": "Stel gewoon je vraag in het Nederlands. Zoek nodes, voer scripts uit of pas rechten aan – zeg wat je nodig hebt. Gebruik @ om mappen of bestanden te noemen. Optionele masking voorkomt dat gevoelige gegevens naar LLM-providers worden verstuurd."
       },
       "dashboardActivity": {
         "title": "Activiteitsoverzicht",
@@ -64,7 +64,7 @@
     "items": {
       "agent": {
         "title": "AI Agent",
-        "description": "Stel gewoon je vraag in het Nederlands. Zoek nodes, voer scripts uit of pas rechten aan – zeg wat je nodig hebt. Gebruik @ om mappen of bestanden te noemen. Optionele masking houdt gevoelige gegevens buiten het model.",
+        "description": "Stel gewoon je vraag in het Nederlands. Zoek nodes, voer scripts uit of pas rechten aan – zeg wat je nodig hebt. Gebruik @ om mappen of bestanden te noemen. Optionele masking voorkomt dat gevoelige gegevens naar LLM-providers worden verstuurd.",
         "imageAlt": "AI Agent in actie"
       },
       "executeJs": {
