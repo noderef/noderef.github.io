@@ -8,6 +8,7 @@ import { Footer } from './components/Footer';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { Logo } from './components/Logo';
+import { WhatsNewBanner } from './components/WhatsNewBanner';
 
 export default function App() {
   const { t, i18n } = useTranslation();
@@ -26,6 +27,7 @@ export default function App() {
           mobileLogo={<Logo variant="mark" />}
           mobileBreakpoint={500}
         />
+        <WhatsNewBanner />
         <Hero />
         <Features />
         <FeatureShowcase />

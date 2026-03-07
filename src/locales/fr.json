@@ -1,4 +1,10 @@
 {
+  "whatsNew": {
+    "badge": "Nouveauté",
+    "title": "AI Agent",
+    "description": "Posez simplement votre question en français. Recherchez des nœuds, exécutez des scripts ou modifiez les permissions – dites ce dont vous avez besoin. Utilisez @ pour citer des dossiers ou des fichiers. Le masquage optionnel garde les données sensibles hors du modèle.",
+    "notifyAgent": "/notify-agent utiliser"
+  },
   "hero": {
     "badge": "Conçu pour le bureau",
     "title": "L'application de bureau que chaque administrateur Alfresco mérite",
@@ -14,6 +20,10 @@
     "title": "Un ensemble complet d'outils qui rendent l'administration Alfresco beaucoup plus fluide",
     "description": "Recherchez plus vite, inspectez les nœuds en détail, consultez les journaux, exécutez des scripts et gérez plusieurs serveurs sans changer d'outil en permanence.",
     "items": {
+      "aiAgent": {
+        "title": "AI Agent",
+        "description": "Posez simplement votre question en français. Recherchez des nœuds, exécutez des scripts ou modifiez les permissions – dites ce dont vous avez besoin. Utilisez @ pour citer des dossiers ou des fichiers. Le masquage optionnel garde les données sensibles hors du modèle."
+      },
       "dashboardActivity": {
         "title": "Vue d'ensemble de l'activité",
         "description": "Voyez où vous avez été avec un tableau de bord personnel affichant les nœuds récents dans une chronologie et une carte de chaleur, afin que vous puissiez rapidement revenir au travail récent."
@@ -38,10 +48,6 @@
         "title": "Navigateur de nœuds à onglets",
         "description": "Ouvrez plusieurs nœuds dans des onglets, comparez les structures, suivez les références et déboguez les problèmes sans perdre votre place."
       },
-      "fileViewerEditor": {
-        "title": "Visualiseur et éditeur de fichiers",
-        "description": "Inspectez et modifiez JavaScript et autres contenus basés sur du texte directement depuis le navigateur de dépôt."
-      },
       "systemTree": {
         "title": "Vue d'ensemble de l'arborescence système",
         "description": "Parcourez les utilisateurs, permissions, groupes et identifiants distants par serveur dans une vue claire de l'arborescence système."
@@ -56,6 +62,11 @@
     "title": "NodeRef en action",
     "description": "Exécutez des scripts sur plusieurs serveurs, parcourez chaque environnement et gardez les onglets du Node Browser alignés sans perdre votre concentration.",
     "items": {
+      "agent": {
+        "title": "AI Agent",
+        "description": "Posez simplement votre question en français. Recherchez des nœuds, exécutez des scripts ou modifiez les permissions – dites ce dont vous avez besoin. Utilisez @ pour citer des dossiers ou des fichiers. Le masquage optionnel garde les données sensibles hors du modèle.",
+        "imageAlt": "AI Agent en action"
+      },
       "executeJs": {
         "title": "Exécuter du JavaScript sur chaque serveur",
         "description": "Lancez le même script en prod, staging et dev, affichez les résultats côte à côte et organisez votre historique sans jongler avec les navigateurs.",
@@ -79,7 +90,11 @@
     "items": {
       "whatIsNodeRef": {
         "question": "Qu'est-ce que NodeRef ?",
-        "answer": "C'est une application de bureau autonome qui rassemble le Node Browser, la Console JavaScript, la recherche, les journaux et les outils multi-serveur en un seul endroit."
+        "answer": "C'est une application de bureau autonome qui rassemble le Node Browser, la Console JavaScript, la recherche, les journaux et les outils multi-serveur en un seul endroit. NodeRef est gratuit pour toute la communauté Alfresco."
+      },
+      "agentPrivacy": {
+        "question": "Agent et confidentialité",
+        "answer": "Tu choisis ce que l'IA peut voir. Tu peux masquer les infos sensibles (noms, e-mails, etc.) avant d'envoyer ta question. C'est toi qui décides."
       },
       "consoleModule": {
         "question": "Dois-je installer un module sur Alfresco ?",
@@ -92,10 +107,6 @@
       "multiServer": {
         "question": "Puis-je connecter plus d'un serveur ?",
         "answer": "Oui. Ajoutez autant de serveurs que vous le souhaitez, étiquetez-les clairement, basculez instantanément et exécutez des scripts sur plusieurs à la fois."
-      },
-      "cost": {
-        "question": "NodeRef est-il gratuit ?",
-        "answer": "Oui. C'est gratuit pour toute la communauté Alfresco."
       },
       "community": {
         "question": "Pour qui est NodeRef ?",

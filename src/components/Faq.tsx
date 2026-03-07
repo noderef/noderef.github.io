@@ -8,11 +8,11 @@ type Faq = {
 
 const FAQ: Faq[] = [
   { value: 'whatIsNodeRef' },
+  { value: 'agentPrivacy' },
   { value: 'community' },
   { value: 'whyDesktop' },
   { value: 'consoleModule' },
   { value: 'multiServer' },
-  { value: 'cost' },
 ];
 
 const FaqCell = ({ value }: Faq) => {

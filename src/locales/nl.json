@@ -1,4 +1,10 @@
 {
+  "whatsNew": {
+    "badge": "Nieuw",
+    "title": "AI Agent",
+    "description": "Stel gewoon je vraag in het Nederlands. Zoek nodes, voer scripts uit of pas rechten aan – zeg wat je nodig hebt. Gebruik @ om mappen of bestanden te noemen. Optionele masking houdt gevoelige gegevens buiten het model.",
+    "notifyAgent": "/notify-agent gebruiken"
+  },
   "hero": {
     "badge": "Gebouwd voor desktop",
     "title": "De desktop app die elke Alfresco beheerder verdient",
@@ -14,6 +20,10 @@
     "title": "Een volledige set tools die Alfresco beheer veel soepeler maken",
     "description": "Zoek sneller, inspecteer nodes in detail, bekijk logs, voer scripts uit en beheer meerdere servers zonder steeds van tool te wisselen.",
     "items": {
+      "aiAgent": {
+        "title": "AI Agent",
+        "description": "Stel gewoon je vraag in het Nederlands. Zoek nodes, voer scripts uit of pas rechten aan – zeg wat je nodig hebt. Gebruik @ om mappen of bestanden te noemen. Optionele masking houdt gevoelige gegevens buiten het model."
+      },
       "dashboardActivity": {
         "title": "Activiteitsoverzicht",
         "description": "Zie waar je bent geweest met een persoonlijk dashboard dat recente nodes in een tijdlijn en heatmap toont, zodat je snel terug kunt springen naar recent werk."
@@ -38,10 +48,6 @@
         "title": "Node Browser met tabbladen",
         "description": "Open meerdere nodes in tabbladen, vergelijk structuren, volg referenties en debug problemen zonder je plek te verliezen."
       },
-      "fileViewerEditor": {
-        "title": "Bestandsviewer en editor",
-        "description": "Inspecteer en bewerk JavaScript en andere tekstgebaseerde inhoud rechtstreeks vanuit de repository browser."
-      },
       "systemTree": {
         "title": "Inzicht in de systeemstructuur",
         "description": "Blader door gebruikers, rechten, groepen en externe inloggegevens per server in een duidelijke repository structuur."
@@ -56,6 +62,11 @@
     "title": "NodeRef in actie",
     "description": "Voer scripts over servers uit, doorzoek elke omgeving en houd de Node Browser tabbladen op één lijn zonder je focus te verliezen.",
     "items": {
+      "agent": {
+        "title": "AI Agent",
+        "description": "Stel gewoon je vraag in het Nederlands. Zoek nodes, voer scripts uit of pas rechten aan – zeg wat je nodig hebt. Gebruik @ om mappen of bestanden te noemen. Optionele masking houdt gevoelige gegevens buiten het model.",
+        "imageAlt": "AI Agent in actie"
+      },
       "executeJs": {
         "title": "JavaScript op elke server uitvoeren",
         "description": "Plan hetzelfde script voor productie, staging en dev, bekijk elke uitslag direct en houd je geschiedenis georganiseerd zonder met je browsers te wisselen.",
@@ -79,7 +90,11 @@
     "items": {
       "whatIsNodeRef": {
         "question": "Wat is NodeRef?",
-        "answer": "Het is een standalone desktop app die de Node Browser, JavaScript Console, zoeken, logs en multi-server tools samenbrengt op één plek."
+        "answer": "Het is een standalone desktop app die de Node Browser, JavaScript Console, zoeken, logs en multi-server tools samenbrengt op één plek. NodeRef is gratis voor de hele Alfresco community."
+      },
+      "agentPrivacy": {
+        "question": "Agent en privacy",
+        "answer": "Je bepaalt zelf wat de AI te zien krijgt. Gevoelige dingen zoals namen of e-mailadressen kun je verbergen voordat je vraag wordt verstuurd. Jij hebt de regie."
       },
       "consoleModule": {
         "question": "Moet ik een module installeren op Alfresco?",
@@ -92,10 +107,6 @@
       "multiServer": {
         "question": "Kan ik meer dan één server verbinden?",
         "answer": "Ja. Voeg zoveel servers toe als je wilt, label ze duidelijk, wissel direct en voer scripts uit op meerdere tegelijk."
-      },
-      "cost": {
-        "question": "Is NodeRef gratis?",
-        "answer": "Ja. Het is gratis voor de hele Alfresco community."
       },
       "community": {
         "question": "Voor wie is NodeRef?",

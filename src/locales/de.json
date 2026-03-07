@@ -1,4 +1,10 @@
 {
+  "whatsNew": {
+    "badge": "Neu",
+    "title": "AI Agent",
+    "description": "Einfach auf Deutsch fragen. Nodes durchsuchen, Skripte ausführen oder Rechte anpassen – sagen Sie, was Sie brauchen. Mit @ können Sie Ordner oder Dateien erwähnen. Optionale Maskierung hält sensible Daten vom Modell fern.",
+    "notifyAgent": "/notify-agent verwenden"
+  },
   "hero": {
     "badge": "Für Desktop entwickelt",
     "title": "Die Desktop App, die jeder Alfresco Administrator verdient",
@@ -14,6 +20,10 @@
     "title": "Ein vollständiger Satz von Tools, die die Alfresco Verwaltung viel reibungsloser machen",
     "description": "Suchen Sie schneller, prüfen Sie Knoten im Detail, sehen Sie Protokolle ein, führen Sie Skripte aus und verwalten Sie mehrere Server, ohne ständig zwischen Tools zu wechseln.",
     "items": {
+      "aiAgent": {
+        "title": "AI Agent",
+        "description": "Einfach auf Deutsch fragen. Nodes durchsuchen, Skripte ausführen oder Rechte anpassen – sagen Sie, was Sie brauchen. Mit @ können Sie Ordner oder Dateien erwähnen. Optionale Maskierung hält sensible Daten vom Modell fern."
+      },
       "dashboardActivity": {
         "title": "Aktivitätsübersicht",
         "description": "Sehen Sie, wo Sie waren, mit einem persönlichen Dashboard, das aktuelle Knoten in einer Zeitleiste und Heatmap anzeigt, damit Sie schnell zu kürzlichen Arbeiten zurückkehren können."
@@ -38,10 +48,6 @@
         "title": "Node Browser mit Registerkarten",
         "description": "Öffnen Sie mehrere Knoten in Registerkarten, vergleichen Sie Strukturen, folgen Sie Referenzen und debuggen Sie Probleme, ohne den Überblick zu verlieren."
       },
-      "fileViewerEditor": {
-        "title": "Datei Viewer und Editor",
-        "description": "Untersuchen und bearbeiten Sie JavaScript und andere textbasierte Inhalte direkt aus dem Repository-Browser."
-      },
       "systemTree": {
         "title": "Einblick in den Systembaum",
         "description": "Durchsuchen Sie Benutzer, Berechtigungen, Gruppen und Remote-Anmeldedaten pro Server in einer klaren Systembaumansicht."
@@ -56,6 +62,11 @@
     "title": "NodeRef in Aktion",
     "description": "Führe Skripte über Server hinweg aus, durchsuche jede Umgebung und behalte die Node Browser Tabs im Blick, ohne den Fokus zu verlieren.",
     "items": {
+      "agent": {
+        "title": "AI Agent",
+        "description": "Einfach auf Deutsch fragen. Nodes durchsuchen, Skripte ausführen oder Rechte anpassen – sagen Sie, was Sie brauchen. Mit @ können Sie Ordner oder Dateien erwähnen. Optionale Maskierung hält sensible Daten vom Modell fern.",
+        "imageAlt": "AI Agent in Aktion"
+      },
       "executeJs": {
         "title": "JavaScript auf jedem Server ausführen",
         "description": "Sende dasselbe Skript an Produktion, Staging und Dev, zeige die Ergebnisse direkt an und halte deinen Verlauf organisiert, ohne Browser hin- und herzuschalten.",
@@ -79,7 +90,11 @@
     "items": {
       "whatIsNodeRef": {
         "question": "Was ist NodeRef?",
-        "answer": "Es ist eine eigenständige Desktop App, die den Node Browser, die JavaScript Konsole, Suche, Protokolle und Multi-Server Tools an einem Ort zusammenbringt."
+        "answer": "Es ist eine eigenständige Desktop App, die den Node Browser, die JavaScript Konsole, Suche, Protokolle und Multi-Server Tools an einem Ort zusammenbringt. NodeRef ist kostenlos für die gesamte Alfresco Community."
+      },
+      "agentPrivacy": {
+        "question": "Agent und Datenschutz",
+        "answer": "Du bestimmst, was die KI zu sehen bekommt. Sensible Dinge wie Namen oder E-Mail-Adressen kannst du ausblenden, bevor deine Frage gesendet wird. Du hast die Kontrolle."
       },
       "consoleModule": {
         "question": "Muss ich ein Modul auf Alfresco installieren?",
@@ -92,10 +107,6 @@
       "multiServer": {
         "question": "Kann ich mehr als einen Server verbinden?",
         "answer": "Ja. Fügen Sie so viele Server hinzu, wie Sie möchten, beschriften Sie sie klar, wechseln Sie sofort und führen Sie Skripte auf mehreren gleichzeitig aus."
-      },
-      "cost": {
-        "question": "Ist NodeRef kostenlos?",
-        "answer": "Ja. Es ist kostenlos für die gesamte Alfresco Community."
       },
       "community": {
         "question": "Für wen ist NodeRef?",

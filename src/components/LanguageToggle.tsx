@@ -10,8 +10,8 @@ type Language = {
 };
 
 const languages: Language[] = [
-  { code: 'de', labelKey: 'language.deutsch', flagClass: 'fi fi-de' },
   { code: 'en', labelKey: 'language.english', flagClass: 'fi fi-gb' },
+  { code: 'de', labelKey: 'language.deutsch', flagClass: 'fi fi-de' },
   { code: 'fr', labelKey: 'language.français', flagClass: 'fi fi-fr' },
   { code: 'nl', labelKey: 'language.nederlands', flagClass: 'fi fi-nl' },
 ];

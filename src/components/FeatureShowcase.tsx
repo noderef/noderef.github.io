@@ -13,6 +13,7 @@ import {
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import agentGif from '../assets/agent.gif';
 import executeGif from '../assets/jsconsole-execute-multi-server.gif';
 import searchGif from '../assets/search-multi-server.gif';
 import nodeBrowserGif from '../assets/node-browser.gif';
@@ -22,6 +23,7 @@ type FeatureItem = {
 };
 
 const ITEMS: FeatureItem[] = [
+  { value: 'agent' },
   { value: 'executeJs' },
   { value: 'searchMultiServer' },
   { value: 'nodeBrowser' },
@@ -42,6 +44,7 @@ export function FeatureShowcase({ collapseBreakpoint = 'md' }: Props) {
   }, [active]);
 
   const imageSrcs: Record<string, string> = {
+    agent: agentGif,
     executeJs: executeGif,
     searchMultiServer: searchGif,
     nodeBrowser: nodeBrowserGif,

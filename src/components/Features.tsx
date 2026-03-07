@@ -1,12 +1,12 @@
 import { Card, Code, Container, SimpleGrid, Stack, Text, ThemeIcon, Title } from '@mantine/core';
 import {
   IconActivity,
+  IconRobot,
   IconSearch,
   IconBookmark,
   IconServer,
   IconTerminal,
   IconFolders,
-  IconFileText,
   IconSitemap,
   IconSettings,
 } from '@tabler/icons-react';
@@ -21,13 +21,13 @@ type Feature = {
 };
 
 const FEATURES: Feature[] = [
+  { key: 'aiAgent', icon: IconRobot },
   { key: 'dashboardActivity', icon: IconActivity },
   { key: 'queryBuilder', icon: IconSearch },
   { key: 'savedSearches', icon: IconBookmark },
   { key: 'multiServer', icon: IconServer },
   { key: 'jsConsole', icon: IconTerminal },
   { key: 'nodeBrowserTabs', icon: IconFolders },
-  { key: 'fileViewerEditor', icon: IconFileText },
   { key: 'systemTree', icon: IconSitemap },
   { key: 'personalization', icon: IconSettings },
 ];

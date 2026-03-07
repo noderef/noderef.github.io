@@ -1,4 +1,10 @@
 {
+  "whatsNew": {
+    "badge": "New",
+    "title": "AI Agent",
+    "description": "Ask your repo in plain English. Search nodes, run scripts, or change permissions – just say what you need. Use @ to point at folders or files. Optional masking keeps sensitive data out of the model.",
+    "notifyAgent": "Use /notify-agent"
+  },
   "hero": {
     "badge": "Built for desktop",
     "title": "The desktop app every Alfresco admin deserves",
@@ -14,6 +20,10 @@
     "title": "A full set of tools that make Alfresco administration much smoother",
     "description": "Search faster, inspect nodes in detail, review logs, run scripts, and manage multiple servers without jumping between tools.",
     "items": {
+      "aiAgent": {
+        "title": "AI Agent",
+        "description": "Ask your repo in plain English. Search nodes, run scripts, or change permissions – just say what you need. Use @ to point at folders or files. Optional masking keeps sensitive data out of the model."
+      },
       "dashboardActivity": {
         "title": "Activity overview",
         "description": "See where you've been with a personal dashboard showing recent nodes in a timeline and heatmap, so you can quickly jump back into recent work."
@@ -38,10 +48,6 @@
         "title": "Tabbed node browser",
         "description": "Open multiple nodes in tabs, compare structures, follow references, and debug issues without losing your place."
       },
-      "fileViewerEditor": {
-        "title": "File viewer and editor",
-        "description": "Inspect and edit JavaScript and other text based content directly from the repository browser."
-      },
       "systemTree": {
         "title": "System tree insight",
         "description": "Browse users, permissions, groups, and remote credentials per server in a clear system tree view."
@@ -56,6 +62,11 @@
     "title": "NodeRef in action",
     "description": "Execute scripts across servers, search every environment, and keep the Node Browser tabs aligned without losing focus.",
     "items": {
+      "agent": {
+        "title": "AI Agent",
+        "description": "Ask your repo in plain English. Search nodes, run scripts, or change permissions – just say what you need. Use @ to point at folders or files. Optional masking keeps sensitive data out of the model.",
+        "imageAlt": "AI Agent in action"
+      },
       "executeJs": {
         "title": "Execute JavaScript on every server",
         "description": "Queue the same script for production, staging, and dev, view each result inline, and keep your history organised without juggling browsers.",
@@ -79,7 +90,11 @@
     "items": {
       "whatIsNodeRef": {
         "question": "What is NodeRef?",
-        "answer": "It's a standalone desktop app that brings the Node Browser, JavaScript Console, search, logs, and multi-server tools together in one place."
+        "answer": "It's a standalone desktop app that brings the Node Browser, JavaScript Console, search, logs, and multi-server tools together in one place. NodeRef is free for the entire Alfresco community."
+      },
+      "agentPrivacy": {
+        "question": "Agent and privacy",
+        "answer": "You choose what the AI gets to see. You can hide sensitive details like names or email addresses before your question is sent. You're in control."
       },
       "consoleModule": {
         "question": "Do I need a module installed on Alfresco?",
@@ -95,10 +110,6 @@
         "answer": "Yes. Add as many servers as you want, label them clearly, switch instantly, and run scripts across several at once."
       },
 
-      "cost": {
-        "question": "Is NodeRef free?",
-        "answer": "Yes. It's free for the entire Alfresco community."
-      },
       "community": {
         "question": "Who is NodeRef for?",
         "answer": "Admins, developers, support engineers, and anyone who spends time digging through nodes or managing multiple Alfresco servers."
