@@ -26,7 +26,6 @@ export function WhatsNewBanner() {
               </Text>
             </Stack>
           </Group>
-
         </Group>
       </Paper>
     </Container>
