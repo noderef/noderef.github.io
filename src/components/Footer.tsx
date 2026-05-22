@@ -1,4 +1,5 @@
-import { ActionIcon, Container, Group, Stack, Text } from '@mantine/core';
+import { ActionIcon, Anchor, Container, Group, Stack, Text } from '@mantine/core';
+import { Link } from 'react-router-dom';
 import { SOCIAL_LINKS } from '@/constants/social-links';
 import { Logo } from './Logo';
 import { useTranslation } from 'react-i18next';
@@ -10,7 +11,9 @@ export function Footer() {
     <Container component="footer" py="xl">
       <Stack gap="md">
         <Group justify="space-between" align="center">
-          <Logo height={24} />
+          <Anchor component={Link} to="/" aria-label="Go to home page">
+            <Logo height={24} />
+          </Anchor>
           <Group gap="xs">
             {SOCIAL_LINKS.map(({ label, Icon }) => (
               <ActionIcon

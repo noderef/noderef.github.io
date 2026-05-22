@@ -59,7 +59,7 @@ export function FeatureShowcase({ collapseBreakpoint = 'md' }: Props) {
         viewport={{ once: true, amount: 0.3 }}
       >
         <Paper withBorder radius="md" p="xl">
-          <Grid gutter="xl" align="stretch">
+          <Grid gap="xl" align="stretch">
             <Grid.Col span={{ base: 12, lg: 6 }}>
               <Stack gap="sm">
                 <Title order={3}>{t('featureShowcase.title')}</Title>

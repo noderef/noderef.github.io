@@ -28,3 +28,12 @@ body {
     transform: rotate(360deg);
   }
 }
+
+.blogMarkdown img {
+  max-width: 100%;
+  height: auto;
+}
+
+.blogMarkdown pre {
+  overflow-x: auto;
+}

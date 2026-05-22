@@ -93,7 +93,7 @@
         "answer": "Es ist eine eigenständige Desktop App, die den Node Browser, die JavaScript Konsole, Suche, Protokolle und Multi-Server Tools an einem Ort zusammenbringt. NodeRef ist kostenlos für die gesamte Alfresco Community."
       },
       "agentPrivacy": {
-        "question": "Agent und Datenschutz",
+        "question": "Wie geht der Agent mit Datenschutz um?",
         "answer": "Du bestimmst, was die KI zu sehen bekommt. Sensible Dinge wie Namen oder E-Mail-Adressen kannst du ausblenden, bevor deine Frage gesendet wird. Du hast die Kontrolle."
       },
       "consoleModule": {
@@ -118,7 +118,22 @@
     "copyright": "© {{year}} NodeRef. Alle Rechte vorbehalten."
   },
   "header": {
-    "brand": "NodeRef"
+    "brand": "NodeRef",
+    "blogTooltip": "Neueste Nachrichten"
+  },
+  "seo": {
+    "siteName": "NodeRef",
+    "home": {
+      "description": "NodeRef — die Desktop-App, die jeder Alfresco-Administrator verdient. Node Browser, JavaScript-Konsole, Suche, Logs und Serververwaltung in einem fokussierten Arbeitsbereich vereinen."
+    },
+    "blogIndex": {
+      "title": "NodeRef - Blog",
+      "description": "Neuigkeiten zu NodeRef Desktop, Versionshinweise und Artikel zur Alfresco-Administration."
+    },
+    "blogNotFound": {
+      "title": "NodeRef - Beitrag nicht gefunden",
+      "description": "Der angeforderte Blogbeitrag existiert nicht. Im Blog finden Sie alle verfügbaren Artikel."
+    }
   },
   "social": {
     "github": {
@@ -134,6 +149,7 @@
     "english": "Englisch",
     "nederlands": "Niederländisch",
     "deutsch": "Deutsch",
-    "français": "Französisch"
+    "français": "Französisch",
+    "español": "Spanisch"
   }
 }

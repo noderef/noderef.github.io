@@ -4,12 +4,13 @@ import enTranslations from '../locales/en.json';
 import nlTranslations from '../locales/nl.json';
 import deTranslations from '../locales/de.json';
 import frTranslations from '../locales/fr.json';
+import esTranslations from '../locales/es.json';
 
 const LANGUAGE_STORAGE_KEY = 'noderef-language';
 
 // Get preferred language: check localStorage first, then browser, default to 'en'
 const getPreferredLanguage = (): string => {
-  const supportedLanguages = ['en', 'nl', 'de', 'fr'];
+  const supportedLanguages = ['en', 'nl', 'de', 'fr', 'es'];
 
   // Check if user has previously selected a language
   const savedLanguage = localStorage.getItem(LANGUAGE_STORAGE_KEY);
@@ -35,6 +36,9 @@ i18n.use(initReactI18next).init({
     },
     fr: {
       translation: frTranslations,
+    },
+    es: {
+      translation: esTranslations,
     },
   },
   lng: getPreferredLanguage(),

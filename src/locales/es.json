@@ -1,0 +1,155 @@
+{
+  "whatsNew": {
+    "badge": "Nuevo",
+    "title": "AI Agent",
+    "description": "Pregúntale a tu repositorio en lenguaje natural. Busca nodos, ejecuta scripts o cambia permisos: solo di lo que necesitas. Usa @ para señalar carpetas o archivos. El enmascaramiento opcional evita que se envíen datos sensibles a proveedores de LLM.",
+    "notifyAgent": "Usa /notify-agent"
+  },
+  "hero": {
+    "badge": "Diseñado para escritorio",
+    "title": "La app de escritorio que todo administrador de Alfresco merece",
+    "description": "NodeRef reúne Node Browser, JavaScript Console, búsqueda y gestión de servidores en una sola app de escritorio enfocada. Tu trabajo diario con Alfresco se vuelve más claro, más rápido y mucho menos demandante.",
+    "download": {
+      "mac": "Descargar para Mac",
+      "windows": "Descargar para Windows",
+      "linux": "Descargar para Linux",
+      "macAppleSilicon": "Descargar para Mac (Apple Silicon)"
+    }
+  },
+  "features": {
+    "title": "Un conjunto completo de herramientas que hace mucho más fluida la administración de Alfresco",
+    "description": "Busca más rápido, inspecciona nodos en detalle, revisa logs, ejecuta scripts y gestiona varios servidores sin saltar entre herramientas.",
+    "items": {
+      "aiAgent": {
+        "title": "AI Agent",
+        "description": "Pregúntale a tu repositorio en lenguaje natural. Busca nodos, ejecuta scripts o cambia permisos: solo di lo que necesitas. Usa @ para señalar carpetas o archivos. El enmascaramiento opcional evita que se envíen datos sensibles a proveedores de LLM."
+      },
+      "dashboardActivity": {
+        "title": "Resumen de actividad",
+        "description": "Ve por dónde has pasado con un panel personal que muestra nodos recientes en una línea de tiempo y un mapa de calor, para volver rápido al trabajo reciente."
+      },
+      "queryBuilder": {
+        "title": "Constructor de consultas",
+        "description": "Crea búsquedas potentes por propiedades, aspectos, tipos, rutas y sitios sin memorizar cada detalle de las consultas."
+      },
+      "savedSearches": {
+        "title": "Búsquedas guardadas y recientes",
+        "description": "Guarda tus consultas favoritas con columnas de resultados personalizadas, reutilízalas entre servidores y vuelve a ejecutar búsquedas recientes con un solo clic."
+      },
+      "multiServer": {
+        "title": "Espacio de trabajo multi-servidor",
+        "description": "Conecta prod, test y dev, etiqueta cada servidor, entra a herramientas de administración y lee logs desde una app de escritorio central."
+      },
+      "jsConsole": {
+        "title": "Consola de JavaScript potente",
+        "description": "Ejecuta scripts en uno o varios servidores con historial, editor Monaco, ayudas específicas de Alfresco y asistencia opcional con <code>/ai</code> cuando la necesites."
+      },
+      "nodeBrowserTabs": {
+        "title": "Node Browser con pestañas",
+        "description": "Abre varios nodos en pestañas, compara estructuras, sigue referencias y depura incidencias sin perder el contexto."
+      },
+      "systemTree": {
+        "title": "Visión del árbol del sistema",
+        "description": "Explora usuarios, permisos, grupos y credenciales remotas por servidor en una vista de árbol del sistema clara."
+      },
+      "personalization": {
+        "title": "Tu espacio de trabajo, a tu manera",
+        "description": "Usa modo claro u oscuro, cambia de idioma y mantén tus propios scripts y archivos de texto organizados en un solo lugar."
+      }
+    }
+  },
+  "featureShowcase": {
+    "title": "NodeRef en acción",
+    "description": "Ejecuta scripts entre servidores, busca en todos los entornos y mantén alineadas las pestañas de Node Browser sin perder el foco.",
+    "items": {
+      "agent": {
+        "title": "AI Agent",
+        "description": "Pregúntale a tu repositorio en lenguaje natural. Busca nodos, ejecuta scripts o cambia permisos: solo di lo que necesitas. Usa @ para señalar carpetas o archivos. El enmascaramiento opcional evita que se envíen datos sensibles a proveedores de LLM.",
+        "imageAlt": "AI Agent en acción"
+      },
+      "executeJs": {
+        "title": "Ejecuta JavaScript en todos los servidores",
+        "description": "Pon en cola el mismo script para producción, staging y dev, ve cada resultado en línea y mantén tu historial ordenado sin estar alternando navegadores.",
+        "imageAlt": "JavaScript Console ejecutándose en varios servidores"
+      },
+      "searchMultiServer": {
+        "title": "Busca en varios servidores",
+        "description": "Lanza consultas guardadas en uno o más entornos, compara resultados en paralelo y mantén el foco con filtros inteligentes y resultados fijados.",
+        "imageAlt": "Resultados de búsqueda multi-servidor"
+      },
+      "nodeBrowser": {
+        "title": "Navega Node Browser con pestañas",
+        "description": "Abre nodos en pestañas, sigue referencias y compara estructuras sin perder el contexto mientras revisas permisos o contenido.",
+        "imageAlt": "Vista previa de Node Browser con pestañas"
+      }
+    }
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "description": "¿Tienes alguna pregunta? Crea un issue en GitHub y lo revisaremos.",
+    "items": {
+      "whatIsNodeRef": {
+        "question": "¿Qué es NodeRef?",
+        "answer": "Es una app de escritorio independiente que reúne Node Browser, JavaScript Console, búsqueda, logs y herramientas multi-servidor en un solo lugar. NodeRef es gratis para toda la comunidad de Alfresco."
+      },
+      "agentPrivacy": {
+        "question": "¿Cómo gestiona la privacidad el agente?",
+        "answer": "Tú eliges qué puede ver la IA. Puedes ocultar datos sensibles, como nombres o direcciones de correo, antes de enviar tu pregunta. Tú tienes el control."
+      },
+      "consoleModule": {
+        "question": "¿Necesito instalar un módulo en Alfresco?",
+        "answer": "Sí. Para que todas las funciones trabajen, tu servidor de Alfresco necesita el módulo <supportToolsLink>OOTBee Support Tools</supportToolsLink>. NodeRef usa su JavaScript Console y endpoints relacionados."
+      },
+      "whyDesktop": {
+        "question": "¿Por qué usar una app de escritorio?",
+        "answer": "Porque todo queda en un solo espacio de trabajo. Sin pestañas perdidas, sin desorden y con herramientas que trabajan juntas en lugar de hacerlo por separado."
+      },
+      "multiServer": {
+        "question": "¿Puedo conectar más de un servidor?",
+        "answer": "Sí. Agrega tantos servidores como quieras, etiquétalos con claridad, cambia entre ellos al instante y ejecuta scripts en varios a la vez."
+      },
+      "community": {
+        "question": "¿Para quién es NodeRef?",
+        "answer": "Para administradores, desarrolladores, ingenieros de soporte y cualquier persona que pase tiempo revisando nodos o gestionando varios servidores Alfresco."
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© {{year}} NodeRef. Todos los derechos reservados."
+  },
+  "header": {
+    "brand": "NodeRef",
+    "blogTooltip": "Últimas noticias"
+  },
+  "seo": {
+    "siteName": "NodeRef",
+    "home": {
+      "description": "NodeRef — la aplicación de escritorio que todo administrador de Alfresco merece. Unifica Node Browser, la consola JavaScript, búsqueda, registros y gestión de servidores en un espacio de trabajo centrado."
+    },
+    "blogIndex": {
+      "title": "NodeRef - Blog",
+      "description": "Novedades sobre NodeRef Desktop, notas de versión y artículos sobre administración de Alfresco."
+    },
+    "blogNotFound": {
+      "title": "NodeRef - Entrada no encontrada",
+      "description": "La entrada de blog solicitada no existe. Consulta el blog para ver los artículos disponibles."
+    }
+  },
+  "social": {
+    "github": {
+      "label": "GitHub",
+      "url": "https://github.com/noderef/noderef"
+    },
+    "x": {
+      "label": "X",
+      "url": "https://x.com/NodeRefDesktop"
+    }
+  },
+  "language": {
+    "english": "Inglés",
+    "nederlands": "Neerlandés",
+    "deutsch": "Alemán",
+    "français": "Francés",
+    "español": "Español"
+  }
+}

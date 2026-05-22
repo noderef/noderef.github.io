@@ -1,39 +1,15 @@
-import { AppShell } from '@mantine/core';
-import { useEffect } from 'react';
-import { useTranslation } from 'react-i18next';
-import { FeatureShowcase } from './components/FeatureShowcase';
-import { Faq } from './components/Faq';
-import { Features } from './components/Features';
-import { Footer } from './components/Footer';
-import { Header } from './components/Header';
-import { Hero } from './components/Hero';
-import { Logo } from './components/Logo';
-import { WhatsNewBanner } from './components/WhatsNewBanner';
+import { Navigate, Route, Routes } from 'react-router-dom';
+import { BlogIndexPage } from './pages/BlogIndexPage';
+import { BlogPostPage } from './pages/BlogPostPage';
+import { HomePage } from './pages/HomePage';
 
 export default function App() {
-  const { t, i18n } = useTranslation();
-
-  useEffect(() => {
-    document.title = `NodeRef - ${t('hero.title')}`;
-  }, [t, i18n.language]);
-
   return (
-    <AppShell padding="md">
-      <AppShell.Main>
-        <Header
-          mt="xl"
-          mb="calc(var(--mantine-spacing-xl) * 1.5)"
-          logo={<Logo />}
-          mobileLogo={<Logo variant="mark" />}
-          mobileBreakpoint={500}
-        />
-        <WhatsNewBanner />
-        <Hero />
-        <Features />
-        <FeatureShowcase />
-        <Faq />
-        <Footer />
-      </AppShell.Main>
-    </AppShell>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/blog" element={<BlogIndexPage />} />
+      <Route path="/blog/:slug" element={<BlogPostPage />} />
+      <Route path="*" element={<Navigate to="/" replace />} />
+    </Routes>
   );
 }

@@ -1,7 +1,9 @@
 import { Button, Menu } from '@mantine/core';
 import { useMediaQuery } from '@mantine/hooks';
 import { IconChevronDown } from '@tabler/icons-react';
+import { useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
+import { MOBILE_HEADER_MEDIA_QUERY } from '@/constants/layout';
 
 type Language = {
   code: string;
@@ -11,6 +13,7 @@ type Language = {
 
 const languages: Language[] = [
   { code: 'en', labelKey: 'language.english', flagClass: 'fi fi-gb' },
+  { code: 'es', labelKey: 'language.español', flagClass: 'fi fi-es' },
   { code: 'de', labelKey: 'language.deutsch', flagClass: 'fi fi-de' },
   { code: 'fr', labelKey: 'language.français', flagClass: 'fi fi-fr' },
   { code: 'nl', labelKey: 'language.nederlands', flagClass: 'fi fi-nl' },
@@ -22,8 +25,15 @@ const FlagIcon = ({ flagClass, label }: { flagClass: string; label: string }) =>
 
 export function LanguageToggle() {
   const { i18n, t } = useTranslation();
-  const isMobile = useMediaQuery('(max-width: 500px)');
+  const isMobile = useMediaQuery(MOBILE_HEADER_MEDIA_QUERY);
   const current = languages.find((lang) => lang.code === i18n.language) || languages[0];
+  const sortedLanguages = useMemo(
+    () =>
+      [...languages].sort((a, b) =>
+        t(a.labelKey).localeCompare(t(b.labelKey), i18n.language, { sensitivity: 'base' }),
+      ),
+    [i18n.language, t],
+  );
 
   const handleLanguageChange = (code: string) => {
     i18n.changeLanguage(code);
@@ -44,7 +54,7 @@ export function LanguageToggle() {
         </Button>
       </Menu.Target>
       <Menu.Dropdown>
-        {languages.map((language) => (
+        {sortedLanguages.map((language) => (
           <Menu.Item
             key={language.code}
             leftSection={<FlagIcon flagClass={language.flagClass} label={t(language.labelKey)} />}

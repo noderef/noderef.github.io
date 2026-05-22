@@ -1,0 +1,3 @@
+export const MOBILE_HEADER_BREAKPOINT_PX = 640;
+
+export const MOBILE_HEADER_MEDIA_QUERY = `(max-width: ${MOBILE_HEADER_BREAKPOINT_PX}px)`;
